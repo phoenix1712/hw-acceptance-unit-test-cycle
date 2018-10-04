@@ -21,9 +21,9 @@ group :test do
   gem 'simplecov', :require => false
 end
 group :production do
-  gem 'pg', '~> 0.21'
+  
 end
-
+gem 'pg', '~> 0.21'
 # Gems used only for assets and not required
 # in production environments by default.
 
